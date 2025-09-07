@@ -2,12 +2,13 @@ import "./App.css";
 import { DecorativeDivider } from "./assets/DecorativeDivider";
 import FloralIcon from "./assets/FloarIcon";
 import HeartDivider from "./assets/HeartDivider";
+import { LocationPin } from "./assets/LocationPin";
 import { Button } from "./components/Button";
 
 function App() {
   return (
     <main>
-      <div>
+      <div className="icon">
         <FloralIcon />
       </div>
       <div className="cal">
@@ -63,8 +64,9 @@ function App() {
             margin: "auto",
             marginBottom: "16px",
           }}
+          icon={<LocationPin />}
           onClick={() =>
-            (window.location.href = "https://maps.app.goo.gl/NwnnMH674FiM9KZ56")
+            (window.location.href = "https://maps.app.goo.gl/uNWPguwxdMVE4yeU8")
           }
         />
         <Button
@@ -73,13 +75,18 @@ function App() {
             flex: 1,
             margin: "auto",
           }}
+          onClick={() =>
+            (window.location.href = "https://nshn.ir/50_bvSDfQxM_dO")
+          }
           text="Neshan"
         />
         <p className="address">
           پایین میدان پونک، بزرگراه اشرفی اصفهانی، نبش خیابان غروی، ساختمان
-          رونیکا پالاس، طبقه 3، واحد 133
+          رونیکا پالاس، طبقه 3، واحد 133 ساعت 13:00
         </p>
-        <DecorativeDivider />
+        <div className="b-icon">
+          <DecorativeDivider />
+        </div>
       </div>
     </main>
   );

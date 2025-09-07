@@ -1,0 +1,12 @@
+{
+  "short_name": "Wedding Card",
+  "name": "Wedding Invitation - Niloofar & Erfan",
+  "description": "Beautiful wedding invitation with venue details and RSVP",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#F5E6D3",
+  "background_color": "#FBF8F4",
+  "scope": "/",
+  "categories": ["lifestyle", "social"]
+}

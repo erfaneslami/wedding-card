@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable react-refresh/only-export-components */
 import type React from "react";
 import { useState, type CSSProperties, type MouseEvent } from "react";
@@ -21,7 +22,7 @@ interface SizeConfig {
 
 interface DynamicMapButtonProps {
   text?: string;
-  icon?: string;
+  icon?: any;
   onClick?: (event: MouseEvent<HTMLButtonElement>) => void;
   disabled?: boolean;
   variant?: ButtonVariant;
