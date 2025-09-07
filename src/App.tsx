@@ -78,6 +78,7 @@ function App() {
           onClick={() =>
             (window.location.href = "https://nshn.ir/50_bvSDfQxM_dO")
           }
+          icon={<LocationPin />}
           text="Neshan"
         />
         <p className="address">
