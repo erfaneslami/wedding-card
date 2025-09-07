@@ -66,7 +66,9 @@ function App() {
           }}
           icon={<LocationPin />}
           onClick={() =>
-            (window.location.href = "https://maps.app.goo.gl/uNWPguwxdMVE4yeU8")
+            window.open(
+              "https://www.google.com/maps/search/?api=1&query=سالن+عقد+و+دفتر+ازدواج+مهوا+تهرا"
+            )
           }
         />
         <Button
@@ -75,9 +77,7 @@ function App() {
             flex: 1,
             margin: "auto",
           }}
-          onClick={() =>
-            (window.location.href = "https://nshn.ir/50_bvSDfQxM_dO")
-          }
+          onClick={() => window.open("https://nshn.ir/50_bvSDfQxM_dO")}
           icon={<LocationPin />}
           text="Neshan"
         />
