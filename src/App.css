@@ -1,0 +1,111 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  height: 100vh;
+  padding: 25px 0;
+  width: 100%;
+}
+
+.cal {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.month {
+  font-family: "Castoro Titling";
+  letter-spacing: 4px;
+  font-size: 19px;
+  margin-top: 25px;
+}
+
+.w-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 25px;
+}
+
+.m-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.day.abs {
+  position: relative;
+}
+
+.mon {
+  font-family: "Castoro";
+  font-style: italic;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.heart {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -20%);
+}
+
+.center-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.save {
+  font-family: "Bilbo Swash Caps";
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.for-w {
+  font-family: "Castoro Titling";
+  margin-bottom: 25px;
+}
+
+.names {
+  font-family: "Mea Culpa";
+  font-size: 36px;
+  display: inline-block;
+  letter-spacing: 4px;
+  margin-bottom: 25px;
+}
+
+.names span {
+  color: #6c4121;
+  padding: 0 8px;
+}
+
+.bottom-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  width: 100%;
+}
+
+.address {
+  max-width: 70%;
+  text-align: center;
+  display: block;
+  margin: 16px 0;
+  font-size: 18px;
+}

@@ -1,0 +1,18 @@
+/* Mobile-First Wedding Card CSS */
+
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #fbf3ed;
+  font-family: "Castoro", "Castoro Titling";
+  max-width: 500px;
+  margin: auto;
+}
