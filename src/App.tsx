@@ -81,9 +81,9 @@ function App() {
           icon={<LocationPin />}
           text="Neshan"
         />
-        <p className="address">
+        <p className="address" style={{ direction: "rtl" }}>
           پایین میدان پونک، بزرگراه اشرفی اصفهانی، نبش خیابان غروی، ساختمان
-          رونیکا پالاس، طبقه 3، واحد 133 ساعت 13:00
+          رونیکا پالاس، بلوک A, طبقه 3، واحد 133 ساعت 13:00
         </p>
         <div className="b-icon">
           <DecorativeDivider />
